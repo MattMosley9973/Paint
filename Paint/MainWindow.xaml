@@ -20,8 +20,10 @@
             <Button x:Name="Blue" Content="Blue Pen" Height="27" Canvas.Left="10" Canvas.Top="134" Width="82" Click="Blue_Click"/>
             <Button x:Name="Green" Content="Green Pen" Height="25" Canvas.Left="10" Canvas.Top="172" Width="82" Click="Green_Click"/>
             <Button x:Name="Black" Content="Black Pen" Height="26" Canvas.Left="10" Canvas.Top="64" Width="82" Click="Black_Click"/>
-            <TextBox x:Name="Pen_Width_Box" Height="25" Canvas.Left="10" Canvas.Top="319" Text="Line Width" TextWrapping="Wrap" Width="82" Background="White"/>
-            <Slider x:Name="Pen_Width_Slider" Height="26" Canvas.Left="10" Canvas.Top="349" Width="82" ValueChanged="Pen_Width_Slider_ValueChanged"/>
+            <TextBox x:Name="Pen_Width_Box" Height="25" Canvas.Left="10" Canvas.Top="272" Text="Line Width" TextWrapping="Wrap" Width="82" Background="White"/>
+            <Button Content="Small Brush" Canvas.Left="11" Canvas.Top="302" Click="small_click"/>
+            <Button Content="Medium Brush" Canvas.Left="11" Canvas.Top="327" Click="medium_click"/>
+            <Button Content="Large Brush" Canvas.Left="11" Canvas.Top="352" Click="large_click"/>
         </Canvas>
     </Grid>
 </Window>

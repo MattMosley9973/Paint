@@ -49,9 +49,22 @@ namespace Paint
         {
             Can.DefaultDrawingAttributes.Color = Colors.Black;
         }
-        private void Pen_Width_Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        private void small_click(object sender, RoutedEventArgs e)
         {
-            
+            BrushSizeFactory smallClick = new BrushSizeFactory();
+            smallClick.changeBrush(0).changeSize(Can);
+        }
+
+        private void medium_click(object sender, RoutedEventArgs e)
+        {
+            BrushSizeFactory medClick = new BrushSizeFactory();
+            medClick.changeBrush((brushType)1).changeSize(Can);
+        }
+
+        private void large_click(object sender, RoutedEventArgs e)
+        {
+            BrushSizeFactory largeClick = new BrushSizeFactory();
+            largeClick.changeBrush((brushType)2).changeSize(Can);
         }
     }
 }
