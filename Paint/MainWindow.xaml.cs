@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Name: David Mosley
+//Date: 9/29/2020
+//Description: This is the main driver of the program. This is where all of the functions go that allows the main window to do pretty things.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
